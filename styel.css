@@ -1,0 +1,202 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Kalnia', serif;
+    text-transform: capitalize;
+    
+}
+nav{
+    display: flex;
+    position: fixed;
+    width: 98%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: white;
+    z-index: 2;
+}
+/* -------------------nav-left----------------- */
+.nav-left span{
+    font-weight: bold;
+   
+}
+.nav-left a{
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+}
+.nav-left {
+   
+    padding: 10px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.nav-left:hover{
+    background-color: gray;
+    color: black;
+}
+/* -----------------------Search--------------- */
+.search{
+    position: relative;
+}
+.search input{
+    padding: 7px 0px;
+    padding-right: 70px;
+    padding-left: 25px;
+   outline: none;
+}
+.search i{
+    position: absolute;
+    font-size: 20px;
+    top:7px;
+    left:5px
+}
+/*---------------------- nav-right------------------ */
+.nav-right ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  
+
+}
+.nav-right ul a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    transition: 0.3s;
+}
+.nav-right ul a:hover{
+    background-color: gray;
+    color:black;
+}
+/* --------------------- header--------------------- */
+
+header{
+    display: flex;
+    background: url(chalo-gallardo-pYffZ7Ak_zE-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+    margin: auto;
+    position: relative;
+    margin-bottom:100px ;
+}
+header h1{
+    position: absolute;
+    font-weight: normal;
+    font-size: 40px;
+    right: 50%;
+    bottom: 50%;
+}
+header h1 span{
+    font-weight: bold;
+}
+/* -----------------About--------------- */
+.projicts{
+    display: flex;
+    width: 90%;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+.projict {
+    width: 24%;
+    position: relative;
+    
+}
+.projict img{
+    
+    width: 275px;
+    height: 300px;
+    
+}
+.projict p{
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 0px;
+    font-size: 20px;
+    
+}
+ /* ----------------------Cards-------------------- */
+ .cards{
+    margin:auto ;
+    display: flex;
+    gap: 10px;
+    width: 90%;
+    margin-top: 100px;
+ flex-wrap: wrap;
+ }
+ .cards .card{
+    width: 24%;
+ }
+ .cards .card img{
+    width: 250px;
+    height: 300px;
+ }
+ .cards .card h3{
+    margin: 15px 0px; 
+ }
+.Contact{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    margin-top: 100px;
+}
+.Contact input{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid gray;
+    margin-top: 5px;
+}
+.Contact button{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    transition: 0.5s;
+}
+.Contact button:hover{
+    background-color: gray;
+    color: black;
+}
+.map{
+   
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+}
+.map img{
+    width: 100%;
+}
+footer{
+    margin-top: 100px;
+}
+footer p{
+    color: white;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+}
+footer p span{
+    color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
